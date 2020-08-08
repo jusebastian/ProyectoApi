@@ -9,18 +9,25 @@ using ProyectoApi.Models;
 
 namespace ProyectoApi.Controllers
 {
+    [Produces("application/json")]
     [ApiController]
     [Route("[controller]")]
     public class TodoItemsController : ControllerBase
     {
-        private readonly ILogger<WeatherForecastController> _logger;
+        
         private readonly TodoContext _context;
 
-        public TodoItemsController(ILogger<WeatherForecastController> logger, TodoContext context)
+        public TodoItemsController(TodoContext context)
         {
-            _logger = logger;
             _context = context;
         }
+
+        ///<sumary>
+        /// Get list TodoItems
+        ///</sumary>
+        /// <returns> A List TodoItem</returns>
+        /// <response code="201">Returns the newly created item</response>
+        /// <response code="400">If the item is null</response>
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<TodoItem>>> GetTodoItems()
