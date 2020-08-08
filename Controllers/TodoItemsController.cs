@@ -25,7 +25,6 @@ namespace ProyectoApi.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<TodoItem>>> GetTodoItems()
         {
-
             var item = await _context.TodoItems.ToListAsync();
             return item;
         }
@@ -65,11 +64,6 @@ namespace ProyectoApi.Controllers
             {
                 await _context.SaveChangesAsync();
             }catch(DbUpdateConcurrencyException){
-                // if(!TodoItemExists(id)){
-                //     return NotFound();
-                // }else{
-                //     throw;
-                // }
                 throw;
             }
 
@@ -90,7 +84,6 @@ namespace ProyectoApi.Controllers
             await _context.SaveChangesAsync();
 
             return item;
-
         }
 
 
