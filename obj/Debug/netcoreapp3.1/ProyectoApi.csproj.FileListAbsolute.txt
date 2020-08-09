@@ -126,3 +126,11 @@ C:\Users\juan.s.ramirez.leyva\Desktop\ProyectoApi\bin\Debug\netcoreapp3.1\ru\Mic
 C:\Users\juan.s.ramirez.leyva\Desktop\ProyectoApi\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\juan.s.ramirez.leyva\Desktop\ProyectoApi\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\juan.s.ramirez.leyva\Desktop\ProyectoApi\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\juan.s.ramirez.leyva\Desktop\ProyectoApi\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\juan.s.ramirez.leyva\Desktop\ProyectoApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\juan.s.ramirez.leyva\Desktop\ProyectoApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\juan.s.ramirez.leyva\Desktop\ProyectoApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\juan.s.ramirez.leyva\Desktop\ProyectoApi\obj\Debug\netcoreapp3.1\ProyectoApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\juan.s.ramirez.leyva\Desktop\ProyectoApi\bin\Debug\netcoreapp3.1\swagger.json
+C:\Users\juan.s.ramirez.leyva\Desktop\ProyectoApi\bin\Debug\netcoreapp3.1\ProyectoApi.xml
+C:\Users\juan.s.ramirez.leyva\Desktop\ProyectoApi\obj\Debug\netcoreapp3.1\ProyectoApi.xml

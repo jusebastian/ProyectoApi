@@ -33,7 +33,8 @@ namespace ProyectoApi
             services.AddDbContext<TodoContext>(opt => 
             opt.UseInMemoryDatabase("TodoList"));
             services.AddControllers();
-
+            services.AddControllersWithViews();
+             
             services.AddSwaggerGen();
             services.AddSwaggerGen(c =>
             {
